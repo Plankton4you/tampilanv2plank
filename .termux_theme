@@ -1,0 +1,24 @@
+
+clear
+termux-media-player play $HOME/.plankxploit/boot.mp3 > /dev/null 2>&1
+
+echo -e "\e[91m
+     ________  ________  _________  ________     
+    |\   __  \|\   __  \|\___   ___\\   ___  \   
+    \ \  \|\  \ \  \|\  \|___ \  \_\ \  \\ \  \  
+     \ \   __  \ \   _  _\   \ \  \ \ \  \\ \  \ 
+      \ \  \ \  \ \  \\  \|   \ \  \ \ \  \\ \  \ 
+       \ \__\ \__\ \__\\ _\    \ \__\ \ \__\\ \__\
+        \|__|\|__|\|__|\|__|    \|__|  \|__| \|__|
+" | lolcat
+
+figlet -f slant "PLANKXPLOIT" | lolcat
+
+echo -e "\e[92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━" | lolcat
+echo -e "👤 Name      : PlankXploit"
+echo -e "📚 Title     : Ethical Hacking"
+echo -e "🌐 Community : EL Savador"
+echo -e "🕶️  Login    : $(date)"
+echo -e "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" | lolcat
+
+echo -e "\e[96m\"We are not just hackers, we are PlankXploit.\"\e[0m\n" | lolcat
